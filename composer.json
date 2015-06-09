@@ -1,0 +1,20 @@
+{
+    "name": "cwt137/laravel-pubnub-broadcast-driver",
+    "description": "PubNub broadcasting events driver for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Thomas",
+            "email": "cwt137@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cwt137\\PubnubDriver\\": "src/"
+        }
+    },
+    "require": {
+        "pubnub/pubnub": "~3.7",
+        "laravel/framework": "~5.1"
+    }
+}
